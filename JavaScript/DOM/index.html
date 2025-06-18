@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section>
+        <h1 id="heading">Hello world!</h1>
+        <p class="paragraph">This is a paragraph.</p>
+
+        <button onclick="log('How are you?')">Click me</button>
+        <button onclick="log(`I'm fine`)">Click me</button>
+
+        <button id="btn">Change Background Color</button>
+      </section>
+
+      <section id="form-section">
+        <form id="form">
+          <h3>Form Details</h3>
+          <input id="name" type="text" placeholder="name" />
+          <input
+            id="email"
+            oninput="monit()"
+            type="email"
+            placeholder="email"
+          />
+          <button>Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px;
+  height: 10vh;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#productSection {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 30px 50px;
+}
+
+#productSection > section {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  height: 60vh;
+}
+
+#productSection > section > img {
+  width: 100%;
+  height: 50%;
+}
